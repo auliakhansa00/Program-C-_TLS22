@@ -1,0 +1,34 @@
+/*Program C++ Penghitung Umur*/
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+   int tanggal, bulan, tahun, hari, bln, thn, a, b, c;
+   
+   cout<<"PROGRAM PENGHITUNG UMUR" ;
+   cout<<endl;
+   
+   cout<<"Tanggal lahir Anda : ";
+   cin>>tanggal;
+   cout<<"Bulan kelahiran Anda : ";
+   cin>>bulan;
+   cout<<"Tahun kelahiran Anda : ";
+   cin>>tahun;
+   cout<<"Masukkan tanggal hari ini : ";
+   cin>>hari;
+   cout<<"Masukkan bulan saat ini : ";
+   cin>>bln;
+   cout<<"Masukkan tahun saat ini : ";
+   cin>>thn;
+   
+   a=(hari-tanggal);
+   b=(bln-bulan);
+   c=(thn-tahun);
+   
+   cout<<"Umur Anda adalah " <<c<< " tahun " <<b<< " bulan " <<a<< " hari ";
+   
+   return 0;
+}
